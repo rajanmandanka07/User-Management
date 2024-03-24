@@ -27,8 +27,8 @@ This project is a full-stack web application built using the MERN (MongoDB, Expr
 
 1. Clone the repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
-3. Start the backend server: `npm start`
-4. Start the frontend development server: `cd client && npm start`
+3. Start the backend server: `cd back_end && node index or nodemon index`
+4. Start the frontend development server: `cd front_end && npm start`
 
 ## API Endpoints
 
