@@ -36,15 +36,15 @@ This project is a full-stack web application built using the MERN (MongoDB, Expr
 
 - **URL:** `/api/auth/register`
 - **Method:** `POST`
-- **Request Body:** `{ "username": "example", "name": "John", "surname": "Doe", "email": "john.doe@example.com", "phone": "1234567890", "password": "password" }`
+- **Request Body:** `{ "username": "abc", "name": "ABC", "surname": "DEF", "email": "abc@gmail.com", "phone": "1234567890", "password": "password" }`
 - **Response:** `{ "msg": "User registered successfully" }`
 
 ### Login
 
 - **URL:** `/api/auth/login`
 - **Method:** `POST`
-- **Request Body:** `{ "email": "john.doe@example.com", "password": "password" }`
-- **Response:** `{ "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "user": { "id": "60710b73d8e87d09fc1865e8", "username": "example", "name": "John", "surname": "Doe", "email": "john.doe@example.com", "phone": "1234567890" } }`
+- **Request Body:** `{ "email": "abc@gmail.com", "password": "password" }`
+- **Response:** `{ "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...", "user": { "id": "60710b73d8e87d09fc1865e8", "username": "abc", "name": "ABC", "surname": "DEF", "email": "abc@gmail.com", "phone": "1234567890" } }`
 
 ### Logout
 
