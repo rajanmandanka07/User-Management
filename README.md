@@ -3,7 +3,6 @@
 This project is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack for user authentication. It allows users to register, log in, and log out.The frontend is built with React and styled using Bootstrap, while the backend is built with Node.js and Express.js, with MongoDB as the database.
 
 
-
 ## Features
 
 - User registration with username, name, surname, email, phone, and password
